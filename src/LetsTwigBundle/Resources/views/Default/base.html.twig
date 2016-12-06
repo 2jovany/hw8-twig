@@ -1,1 +1,11 @@
-Hello from base!<br>
+Hello from base!<br/>
+{% if name %}
+Hello {{ name }}!<br/>
+{% endif %}
+{% if age >= 18 %}
+Access Ok!<br/>
+{% elseif age < 18 %}
+Access denied... :(<br/>
+{% else %}
+Age not detected...<br/>
+{% endif %}

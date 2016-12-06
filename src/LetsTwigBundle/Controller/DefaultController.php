@@ -10,8 +10,11 @@ class DefaultController extends Controller
     {
         return $this->render('LetsTwigBundle:Default:index.html.twig');
     }
-    public function baseAction()
+    public function baseAction($age)
     {
-    	return $this->render('LetsTwigBundle:Default:base.html.twig');
+    	$arr = array();
+    	$arr['name'] = 'Jack';
+    	$arr['age'] = $age;
+    	return $this->render('LetsTwigBundle:Default:base.html.twig', $arr);
     }
 }
