@@ -1,0 +1,5 @@
+lets_twig:
+    resource: "@LetsTwigBundle/Resources/config/routing.yml"
+    prefix:   /
+
+

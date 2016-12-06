@@ -1,0 +1,4 @@
+services:
+#    lets_twig.example:
+#        class: LetsTwigBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

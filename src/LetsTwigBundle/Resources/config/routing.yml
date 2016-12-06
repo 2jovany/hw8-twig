@@ -1,0 +1,3 @@
+lets_twig_homepage:
+    path:     /
+    defaults: { _controller: LetsTwigBundle:Default:index }
