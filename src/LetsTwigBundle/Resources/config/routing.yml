@@ -4,3 +4,6 @@ lets_twig_homepage:
 lets_twig_base:
     path:     /base/{age}
     defaults: { _controller: LetsTwigBundle:Default:base, age:17 }
+lets_twig_web:
+    path:     /home
+    defaults: { _controller: LetsTwigBundle:Web:show }
